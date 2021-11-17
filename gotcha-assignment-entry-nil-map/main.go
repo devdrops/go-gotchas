@@ -1,15 +1,12 @@
 package main
 
+import "fmt"
+
 /*
 A declaração abaixo resulta em panic:
 
 ```
 panic: assignment to entry in nil map
-
-goroutine 1 [running]:
-main.main()
-        /code/main.go:5 +0x2e
-        exit status 2
 ```
 
 Por quê?
@@ -33,4 +30,11 @@ func main() {
 	// Código com uso de make:
 	m := make(map[string]float64)
 	m["pi"] = 3.1416
+
+	// Código com map literal:
+	var om = map[string]float64{
+		"pi": 3.1416,
+		"aaa": 1.2345,
+	}
+	fmt.Println(om)
 }
