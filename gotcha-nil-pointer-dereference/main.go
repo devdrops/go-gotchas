@@ -36,6 +36,14 @@ func main() {
 	fmt.Println(p.Abs())
 
 	/*
+	Pode-se também contornar o problema se criarmos a variável literal, ao
+	invés de um ponteiro:
+	*/
+	// Criando sem usar um ponteiro
+	var op Point
+	fmt.Println(op.Abs())
+
+	/*
 	Referências de leitura:
 
 	- https://pkg.go.dev/builtin#new
