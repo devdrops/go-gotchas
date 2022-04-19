@@ -5,19 +5,19 @@ linguagem Go, propostos para melhoria do código que escrevemos no dia a dia.
 
 ## Lista de Todos os Desafios
 
-1. [Assignment to entry in nil map](https://yourbasic.org/golang/gotcha-assignment-entry-nil-map/)
-2. [Invalid memory address or nil pointer dereference](https://yourbasic.org/golang/gotcha-nil-pointer-dereference/)
-3. [Multiple-value in single-value context](https://yourbasic.org/golang/gotcha-multiple-value-single-value-context/)
-4. [Array won't change](https://yourbasic.org/golang/gotcha-function-doesnt-change-array/)
-5. [Shadowed variables](https://yourbasic.org/golang/gotcha-shadowing-variables/)
-6. [Unexpected newline](https://yourbasic.org/golang/gotcha-missing-comma-slice-array-map-literal/)
-7. [Immutable strings](https://yourbasic.org/golang/gotcha-strings-are-immutable/)
-8. [How does characters add up?](https://yourbasic.org/golang/gotcha-concatenate-rune-string/)
-9. [What happened to ABBA?](https://yourbasic.org/golang/gotcha-trim-string/)
-10. [Where is my copy?](https://yourbasic.org/golang/gotcha-copy-missing/)
-11. [Why doesn't append work every time? (scary bug)](https://yourbasic.org/golang/gotcha-append/)
-12. [Constant overflows int](https://yourbasic.org/golang/gotcha-constant-overflows-int/)
-13. [Unexpected ++, expecting expression](https://yourbasic.org/golang/gotcha-increment-decrement-statement/)
+1. :white_check_mark: [Assignment to entry in nil map](https://yourbasic.org/golang/gotcha-assignment-entry-nil-map/)
+2. :white_check_mark: [Invalid memory address or nil pointer dereference](https://yourbasic.org/golang/gotcha-nil-pointer-dereference/)
+3. :white_check_mark: [Multiple-value in single-value context](https://yourbasic.org/golang/gotcha-multiple-value-single-value-context/)
+4. :white_check_mark: [Array won't change](https://yourbasic.org/golang/gotcha-function-doesnt-change-array/)
+5. :white_check_mark: [Shadowed variables](https://yourbasic.org/golang/gotcha-shadowing-variables/)
+6. :white_check_mark: [Unexpected newline](https://yourbasic.org/golang/gotcha-missing-comma-slice-array-map-literal/)
+7. :white_check_mark: [Immutable strings](https://yourbasic.org/golang/gotcha-strings-are-immutable/)
+8. :white_check_mark: [How does characters add up?](https://yourbasic.org/golang/gotcha-concatenate-rune-string/)
+9. :white_check_mark: [What happened to ABBA?](https://yourbasic.org/golang/gotcha-trim-string/)
+10. :white_check_mark: [Where is my copy?](https://yourbasic.org/golang/gotcha-copy-missing/)
+11. :white_check_mark: [Why doesn't append work every time? (scary bug)](https://yourbasic.org/golang/gotcha-append/)
+12. :white_check_mark: [Constant overflows int](https://yourbasic.org/golang/gotcha-constant-overflows-int/)
+13. :white_check_mark: [Unexpected ++, expecting expression](https://yourbasic.org/golang/gotcha-increment-decrement-statement/)
 14. [Get your priorities right](https://yourbasic.org/golang/gotcha-operator-precedence/)
 15. [Go and Pythagoras](https://yourbasic.org/golang/gotcha-bitwise-operators/)
 16. [No end in sight](https://yourbasic.org/golang/gotcha-integer-overflow-wrap-around/)
@@ -34,4 +34,12 @@ linguagem Go, propostos para melhoria do código que escrevemos no dia a dia.
 27. [Nil is not nil](https://yourbasic.org/golang/gotcha-why-nil-error-not-equal-nil/)
 
 A solução que fiz para cada desafio está dentro de uma pasta neste repositório.
+
+## Observações
+
+Alguns dos desafios propostos foram alterados, corrigidos e/ou modificados desde
+a criação dessa lista. Sempre que possível, procuro o
+[autor do texto](https://twitter.com/yourbasic_org) para apontar quando encontro
+isso, e com qual versão de Go isso pode ter sido corrigido. Segue abaixo uma
+lista:
 
